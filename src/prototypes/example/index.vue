@@ -171,6 +171,8 @@ function entryKey(entry: SavedPageListItem): string | number {
 .example-page,
 .example-page :deep(.vector-chrome-header),
 .example-page :deep(.minerva-chrome-header),
+.example-page :deep(.minerva-chrome-header__nav),
+.example-page :deep(.chrome-footer__mobile-body),
 .example-page :deep(.special-page-wrapper),
 .example-page :deep(.chrome-footer) {
   background-color: var(--example-page-background);
